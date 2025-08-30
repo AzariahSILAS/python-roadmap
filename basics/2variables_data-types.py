@@ -63,7 +63,12 @@ print(colors)
 
 # ----------------------dictionary
 
-charactor_1 = { "name":"Azariah,", "damage":10, "health":100, "armer":"full" }
+charactor_1 = { "name":"Azariah", "damage":10, "health":100, "armer":"full" }
+
+charactor_2 = { "name":"Samantha", "damage":10, "health":100, "armer":"full" }
+
+
+
 
 
 
