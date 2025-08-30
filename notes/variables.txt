@@ -1,0 +1,72 @@
+1. What is a Variable?
+
+A variable is a named reference to a value stored in memory.
+
+Example:
+
+x = 10
+name = "Azariah"
+
+
+Here, x refers to the integer 10, and name refers to the string "Azariah".
+
+🔹 2. Rules for Naming Variables
+
+When creating variable names, Python follows these rules:
+
+Must start with a letter (A–Z, a–z) or underscore (_).
+
+✅ name, _age, value1
+
+❌ 1value, -num
+
+Can contain letters, digits, and underscores.
+
+✅ user_123
+
+Case-sensitive: Name and name are different.
+
+Should not use spaces. Use _ instead.
+
+✅ total_amount
+
+❌ total amount
+
+🔹 3. Reserved Keywords (can’t be used as variable names)
+
+Python has keywords that are reserved for syntax, so you cannot use them as variable names.
+Examples include:
+
+and, as, assert, break, class, continue, def, del,
+elif, else, except, False, finally, for, from, global,
+if, import, in, is, lambda, None, nonlocal, not, or,
+pass, raise, return, True, try, while, with, yield
+
+
+👉 Full list can be found by running:
+
+import keyword
+print(keyword.kwlist)
+
+🔹 4. Best Practices (Conventions)
+
+Not strict rules, but widely followed:
+
+Use snake_case for variable names: user_age, total_sum
+
+Use descriptive names: distance_km instead of just d
+
+Constants are written in UPPERCASE: PI = 3.14159
+
+Avoid single-character names except in short loops (i, j, k).
+
+🔹 5. Examples
+# Valid variables
+age = 25
+user_name = "Azariah"
+pi_value = 3.14
+_is_admin = True
+
+# Invalid variables
+# 1age = 25   ❌ starts with number
+# class = "test" ❌ 'class' is a keyword

@@ -1,0 +1,97 @@
+In Python, operators are special symbols (or keywords) that perform operations on values or variables. They’re grouped into categories:
+
+1. Arithmetic Operators
+
+Used for basic math:
+
++ → Addition
+
+- → Subtraction
+
+* → Multiplication
+
+/ → Division (always returns float)
+
+// → Floor division (truncates to integer)
+
+% → Modulus (remainder)
+
+** → Exponentiation (power)
+
+2. Comparison (Relational) Operators
+
+Used to compare values (returns True or False):
+
+== → Equal to
+
+!= → Not equal
+
+> → Greater than
+
+< → Less than
+
+>= → Greater than or equal to
+
+<= → Less than or equal to
+
+3. Logical Operators
+
+Used to combine conditions:
+
+and → True if both are true
+
+or → True if at least one is true
+
+not → Negates (True → False, False → True)
+
+4. Assignment Operators
+
+Used to assign values to variables (with optional operations):
+
+= → Simple assignment
+
++= → Add and assign
+
+-= → Subtract and assign
+
+*= → Multiply and assign
+
+/= → Divide and assign
+
+//= → Floor divide and assign
+
+%= → Modulus and assign
+
+**= → Exponent and assign
+
+5. Bitwise Operators
+
+Operate on bits (binary level):
+
+& → AND
+
+| → OR
+
+^ → XOR (exclusive OR)
+
+~ → NOT (inverts bits)
+
+<< → Left shift
+
+>> → Right shift
+
+6. Identity Operators
+
+Check if two objects are the same object in memory:
+
+is → True if both variables point to the same object
+
+is not → True if they point to different objects
+
+7. Membership Operators
+
+Check if a value is in a sequence (list, string, tuple, etc.):
+
+in → True if value exists in sequence
+
+not in → True if value does not exist in sequence
