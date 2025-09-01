@@ -1,5 +1,10 @@
 import keyword
 
+
+
+
+
+
 #comments 
 #variables
 #operators
@@ -15,7 +20,7 @@ import keyword
 age = 24
 dollar_per_hour = 22.50
 name = "azariah"
-
+print(name)
 
 # rules for naming variables
 
@@ -61,7 +66,7 @@ exp = 2 ** 2
 
 
 
-print(fdiv)
+#print(fdiv)
 
 
 
@@ -80,7 +85,7 @@ y = 2
 
 z = x >= y
 
-print(z)
+#print(z)
 
 
 #logical operators -------------------------------
@@ -96,7 +101,7 @@ y = False
 
 z = x or not y
 
-print(z)
+#print(z)
 
 #assignment operators ------------------------------------
 
@@ -109,10 +114,10 @@ print(z)
 # %= (modulus and assign)
 # **= (exponent and assign)
 
-x *= 
+x += y
 
 
-print(x)
+#print(x)
 
 #bitwise operators ------------------------------------------
 
@@ -123,6 +128,13 @@ print(x)
 # << (left shfit)
 # >> (right shift)
 
+x = 5   # 0101
+y = 6   # 0110
+
+z = x & y #0100
+
+print(z)
+
 
 # identity operators ---------------------------------------
 #-check if two objects are the same in memory--------------
@@ -130,12 +142,20 @@ print(x)
 # is (True if both variables point to the same object in memory)
 # is not (true if they point to difrent objects)
 
+x = 10
+y = 10
+print( x is y)
+
 
 #membership operators ----------------------
 #-check if a value is in a sequence (list, string, tuple, etc.)
 
 # in (True if value exists in sequence)
-# not (True if value does not exist)
+# not in (True if value does not exist)
+
+name = "azariah"
+
+print("x" not in name)
 
 # expressions vs statements-------------------------
 
@@ -145,7 +165,7 @@ x = 5 + 7 #(x is 12)
 
 #statements (performs an action) (do this)
 
-print (x) # (prints the value to the console)
+#print (x) # (prints the value to the console)
 
 
 
@@ -156,4 +176,4 @@ def sum(a, b):
     print(value)
 
 
-sum(15, 15)
+#sum(15, 15)
